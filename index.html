@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>In Loving Memory — Mrs. Nneoma Monica Nwafo Akagburuonye ("Mama Nwa-afo")</title>
+<meta name="description" content="Final Burial Rites & Celebration of Life — Mrs. Nneoma Monica Nwafo Akagburuonye, Mama Nwa-afo, Matriarch of Umuoshike, Ogbor Uvuru, Aboh Mbaise LGA, Imo State. Aged 105. 2–8 November 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Poppins:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= LOADER ================= -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-mark">
+    <span class="loader-ring"></span>
+    <span class="loader-dove">&#10022;</span>
+  </div>
+  <p>A Glorious Exit</p>
+</div>
+
+<!-- ================= LIFE RAIL (desktop scroll timeline) ================= -->
+<nav class="life-rail" aria-label="Life journey navigation">
+  <div class="rail-line"><div class="rail-fill" id="railFill"></div></div>
+  <ul>
+    <li data-target="hero"><span class="rail-dot"></span><span class="rail-label">Cover</span></li>
+    <li data-target="programme"><span class="rail-dot"></span><span class="rail-label">Programme</span></li>
+    <li data-target="odyssey-1"><span class="rail-dot"></span><span class="rail-label">Birth &amp; Girlhood</span></li>
+    <li data-target="odyssey-2"><span class="rail-dot"></span><span class="rail-label">Marriage</span></li>
+    <li data-target="odyssey-3"><span class="rail-dot"></span><span class="rail-label">Faith &amp; Family</span></li>
+    <li data-target="odyssey-4"><span class="rail-dot"></span><span class="rail-label">Grandchildren</span></li>
+    <li data-target="odyssey-5"><span class="rail-dot"></span><span class="rail-label">Legacy</span></li>
+    <li data-target="thanks"><span class="rail-dot"></span><span class="rail-label">Farewell</span></li>
+  </ul>
+</nav>
+
+<!-- ================= TOP NAV ================= -->
+<header class="topnav" id="topnav">
+  <a href="#hero" class="brand">A Glorious Exit</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav-links" id="navLinks">
+    <a href="#video">Her Story Film</a>
+    <a href="#welcome">Welcome</a>
+    <a href="#programme">Programme</a>
+    <a href="#odyssey">Her Story</a>
+    <a href="#tributes">Tributes</a>
+    <a href="#wall">Tribute Wall</a>
+    <a href="#galleries">Gallery</a>
+    <a href="#institutional">Legacy</a>
+    <a href="#thanks">Thanks</a>
+    <button id="printBtn" class="nav-print" title="Print this tribute">Print</button>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= HERO / COVER ================= -->
+<section id="hero" class="section hero" data-bg="assets/bg_hero.jpg">
+  <div class="hero-inner reveal">
+    <p class="eyebrow">In Loving Memory</p>
+    <h1 class="hero-title">A Glorious<br>Exit</h1>
+    <p class="hero-italic">Final Burial Rites &amp; Celebration of Life</p>
+    <div class="hero-photo-frame">
+      <img src="assets/portrait_hero.jpg" alt="Portrait of Mrs. Nneoma Monica Nwafo Akagburuonye in traditional coral beads and gele">
+    </div>
+    <div class="hero-names">
+      <span class="honorific">Matriarch of Umuoshike &bull; &ldquo;Mama Nwa-afo&rdquo;</span>
+      <span class="name-line1">Mrs. Nneoma Monica</span>
+      <span class="name-line2">Nwafo Akagburuonye</span>
+    </div>
+    <p class="hero-sub">Umuoshike, Ogbor Uvuru, Aboh Mbaise LGA, Imo State</p>
+    <div class="hero-bottom">
+      <div class="age-badge"><span>Aged</span><strong>105</strong><span>Years</span></div>
+      <div class="hero-dates">
+        <span class="dates">2 – 8 November 2026</span>
+        <span class="dates-sub">A Life of Faith, Love &amp; Service</span>
+      </div>
+    </div>
+    <p class="hero-alias">Mother of Chief Barr. Engr. Dr. Success Obioma Akagburuonye &mdash; To God Be The Glory</p>
+    <a href="#welcome" class="scroll-cue" aria-label="Scroll to begin">
+      <span class="scroll-cue-line"></span> Begin Her Story
+    </a>
+  </div>
+</section>
+
+<!-- ================= TRIBUTE VIDEO ================= -->
+<section id="video" class="section video-section" data-bg="assets/bg_content.jpg">
+  <div class="wrap reveal">
+    <p class="tag center">Watch</p>
+    <h2 class="center" id="videoTitle">Her Life in Motion</h2>
+    <p class="center italic-sub" id="videoCaption">A short film celebrating 105 years of faith, family and legacy</p>
+
+    <div id="videoPlayerWrap" class="video-player-wrap">
+      <button id="videoPosterBtn" class="video-poster" type="button" aria-label="Play tribute video">
+        <img id="videoPosterImg" src="assets/portrait_hero.jpg" alt="Tribute video poster">
+        <span class="video-poster-tint"></span>
+        <span class="video-play-btn">&#9658;</span>
+      </button>
+      <div id="videoComingSoon" class="video-coming-soon" hidden>
+        <span class="video-play-btn disabled">&#9658;</span>
+        <p>The tribute film is being lovingly prepared and will appear here soon.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WELCOME ================= -->
+<section id="welcome" class="section content-section" data-bg="assets/bg_content.jpg">
+  <div class="wrap reveal">
+    <p class="tag">Welcome</p>
+    <h2>Welcome &amp; Family Acknowledgment</h2>
+    <div class="rule"></div>
+    <div class="two-col-grid">
+      <div>
+        <h3>A Message from the Family</h3>
+        <p>On behalf of the family of the late Nehemiah Akagburuonye Amuchie of Umuoshike, Ogbor Uvuru, we welcome you with grateful hearts. We give God the glory for one hundred and five remarkable years granted to our matriarch, Mrs. Nneoma Monica Nwafo Akagburuonye &mdash; affectionately known across Ogbor Uvuru and beyond as &ldquo;Mama Nwa-afo.&rdquo;</p>
+        <p>Her journey from a young girl in colonial Igboland to becoming matriarch, church founder and mother to generations is a testament to faith, resilience and love. From 2&ndash;8 November 2026, family, clergy and community gather across Ogbor Uvuru and Aboh Mbaise to honour her home-call. We invite you to walk with us through this page as we celebrate a life well lived, a faith well kept, and a legacy that remains.</p>
+      </div>
+      <div class="nav-box">
+        <p class="nav-box-title">Find Your Way</p>
+        <ul>
+          <li><a href="#programme">Programme of Events</a></li>
+          <li><a href="#odyssey">The Centenarian's Odyssey</a></li>
+          <li><a href="#tributes">Family Tributes</a></li>
+          <li><a href="#young-voices">Young Voices</a></li>
+          <li><a href="#galleries">Photo Galleries</a></li>
+          <li><a href="#institutional">Institutional &amp; Legacy Tributes</a></li>
+          <li><a href="#celebration">Venues &amp; Reception</a></li>
+          <li><a href="#register">Descendants Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ORDER OF SERVICE ================= -->
+<section id="programme" class="section heaven-section" data-bg="assets/bg_heaven.jpg">
+  <div class="wrap reveal">
+    <p class="tag">Programme of Events</p>
+    <h2>Seven Days of Farewell</h2>
+    <p class="italic-sub">2 &ndash; 8 November 2026 &bull; Ogbor Uvuru, Aboh Mbaise LGA, Imo State</p>
+    <div class="rule"></div>
+
+    <!-- ============ LIVESTREAM CARD ============ -->
+    <div id="livestreamCard" class="livestream-card">
+      <div class="livestream-info">
+        <span id="lsStatusBadge" class="ls-badge ls-upcoming">Upcoming</span>
+        <h3 id="lsHeadline">Watch the Burial Events Live</h3>
+        <p id="lsSubtext">Coverage streams online for family and friends who cannot travel to Ogbor Uvuru &mdash; from the wake-keeping through the thanksgiving service.</p>
+        <div id="lsCountdown" class="ls-countdown" hidden>
+          <div><strong id="cdDays">00</strong><span>Days</span></div>
+          <div><strong id="cdHours">00</strong><span>Hrs</span></div>
+          <div><strong id="cdMins">00</strong><span>Min</span></div>
+          <div><strong id="cdSecs">00</strong><span>Sec</span></div>
+        </div>
+        <button id="watchLiveBtn" class="btn-primary">&#9679; Watch Live</button>
+      </div>
+      <div class="livestream-embed-wrap">
+        <div id="livestreamEmbedPlaceholder" class="livestream-placeholder">
+          <span class="ls-icon">&#128247;</span>
+          <p>Livestream link will be added closer to the event.</p>
+        </div>
+        <div id="livestreamEmbed" class="livestream-embed" hidden></div>
+      </div>
+    </div>
+
+    <div class="day-tabs" role="tablist" aria-label="Programme days">
+      <button class="day-tab active" data-day="1" role="tab" aria-selected="true">Mon 2<span>Crusade Begins</span></button>
+      <button class="day-tab" data-day="2" role="tab" aria-selected="false">Tue 3<span>Outreach</span></button>
+      <button class="day-tab" data-day="3" role="tab" aria-selected="false">Wed 4<span>Outreach</span></button>
+      <button class="day-tab" data-day="4" role="tab" aria-selected="false">Thu 5<span>Seminar</span></button>
+      <button class="day-tab" data-day="5" role="tab" aria-selected="false">Fri 6<span>Wake-Keeping</span></button>
+      <button class="day-tab" data-day="6" role="tab" aria-selected="false">Sat 7<span>Interment</span></button>
+      <button class="day-tab" data-day="7" role="tab" aria-selected="false">Sun 8<span>Thanksgiving</span></button>
+    </div>
+
+    <div class="day-panel active" data-day="1">
+      <div class="service-head"><h3>Evangelistic Crusade &mdash; Night One</h3><span class="service-meta">Central School, Ogbor Uvuru</span></div>
+      <table class="sched">
+        <tr><td>All Day</td><td>Crusade site build &amp; rig; media pre-production begins</td></tr>
+        <tr><td>9:00 AM</td><td>Medical &amp; eye-care outreach &mdash; registration &amp; consultations</td></tr>
+        <tr><td>1:00 PM</td><td>Palliative distribution (rice &amp; food items)</td></tr>
+        <tr><td>5:00 PM</td><td>Evangelistic Crusade &mdash; Night One</td></tr>
+      </table>
+    </div>
+    <div class="day-panel" data-day="2">
+      <div class="service-head"><h3>Outreach &amp; Crusade &mdash; Night Two</h3><span class="service-meta">Central School, Ogbor Uvuru</span></div>
+      <p>Medical/eye-care outreach, palliative distribution and evening crusade continue, following the Day One pattern.</p>
+    </div>
+    <div class="day-panel" data-day="3">
+      <div class="service-head"><h3>Outreach &amp; Crusade &mdash; Night Three</h3><span class="service-meta">Central School, Ogbor Uvuru</span></div>
+      <p>Medical/eye-care outreach, palliative distribution and evening crusade continue, following the Day One pattern.</p>
+    </div>
+    <div class="day-panel" data-day="4">
+      <div class="service-head"><h3>Media Outreach, Seminar &amp; Final Crusade Night</h3><span class="service-meta">Country Home, Akarugo Ndi Igbo &amp; Central School</span></div>
+      <table class="sched">
+        <tr><td>9:00 AM</td><td>Press briefing &amp; media accreditation</td></tr>
+        <tr><td>11:00 AM</td><td>Public seminar &mdash; community development &amp; legacy theme</td></tr>
+        <tr><td>5:00 PM</td><td>Final night of Crusade</td></tr>
+      </table>
+    </div>
+    <div class="day-panel" data-day="5">
+      <div class="service-head"><h3>Conveyance, Wake-Keeping &amp; Night of Tributes</h3><span class="service-meta">Mbaise Road &rarr; Country Home, Akarugo Ndi Igbo</span></div>
+      <table class="sched">
+        <tr><td>6:00 AM</td><td>Mortuary release &amp; convoy assembly</td></tr>
+        <tr><td>7:30 AM</td><td>Body conveyed via Mbaise Road to Ogbor Uvuru</td></tr>
+        <tr><td>10:00 AM</td><td>Arrival &amp; mini service, Assemblies of God District HQ, Mbaise</td></tr>
+        <tr><td>12:00 PM</td><td>Procession to the country home; wake-keeping begins</td></tr>
+        <tr><td>7:00 PM</td><td>Night of Tributes &mdash; family, church &amp; community (invitation only)</td></tr>
+      </table>
+    </div>
+    <div class="day-panel" data-day="6">
+      <div class="service-head"><h3>Lying-in-State, March-Past, Sermon &amp; Interment</h3><span class="service-meta">Central School &amp; Husband's Compound &mdash; Peak Attendance Day</span></div>
+      <table class="sched">
+        <tr><td>7:00 AM</td><td>Lying-in-state opens to the public</td></tr>
+        <tr><td>8:00 AM</td><td>March-past begins &mdash; family, church, community groups</td></tr>
+        <tr><td>11:00 AM</td><td>Sermon &amp; church service</td></tr>
+        <tr><td>2:00 PM</td><td>Casket moves to husband's compound</td></tr>
+        <tr><td>2:30 PM</td><td>Interment &amp; committal rites</td></tr>
+        <tr><td>4:00 PM</td><td>Reception at five venues (see Venues below)</td></tr>
+      </table>
+    </div>
+    <div class="day-panel" data-day="7">
+      <div class="service-head"><h3>Thanksgiving Service &amp; Closing Entertainment</h3><span class="service-meta">Noah's Ark, Assemblies of God Church, Ogbor Uvuru</span></div>
+      <table class="sched">
+        <tr><td>10:00 AM</td><td>Thanksgiving Service</td></tr>
+        <tr><td>12:30 PM</td><td>Entertainment for all guests &amp; church members</td></tr>
+      </table>
+    </div>
+
+    <p class="footnote programme-note">All are welcome to the public portions of the programme. Please follow ushers and marshals on site for guidance on seating and access.</p>
+  </div>
+</section>
+
+<!-- ================= THE CENTENARIAN'S ODYSSEY ================= -->
+<section id="odyssey" class="section-header-block reveal">
+  <p class="tag center">Her Story</p>
+  <h2 class="center">The Centenarian's Odyssey</h2>
+  <p class="center italic-sub">Five chapters. One hundred and five years. A journey from birth to eternal legacy.</p>
+</section>
+
+<section id="odyssey-1" class="section chapter-section" data-bg="assets/bg_life_birth.jpg">
+  <div class="wrap reveal">
+    <div class="chapter-row">
+      <span class="chapter-badge">Chapter I &bull; Birth &amp; Girlhood</span>
+      <span class="chapter-years">Early 1920s</span>
+    </div>
+    <h2>Dawn of a Matriarch</h2>
+    <p class="italic-sub">Colonial Igboland Youth &amp; Ancestral Roots</p>
+    <p class="dropcap">Born in the early 1920s in Umuoshike, Ogbor Uvuru, Aboh Mbaise, into a family rooted in farming and tradition, the young Nneoma grew up amid the rhythms of colonial-era Igboland &mdash; the crow of the cockerel at dawn, the songs of the moonlight play, and the discipline of the family compound. She was raised in the fear of God and the wisdom of her elders, distinguished even as a girl for her diligence, her gentle wit, and an unshakable sense of duty to family and community that would define the century to come.</p>
+  </div>
+</section>
+
+<section id="odyssey-2" class="section chapter-section alt" data-bg="assets/bg_life_marriage.jpg">
+  <div class="wrap reveal">
+    <div class="chapter-row">
+      <span class="chapter-badge">Chapter II &bull; Marriage &amp; Motherhood Begins</span>
+      <span class="chapter-years">Mid-Century</span>
+    </div>
+    <h2>Matrimony &amp; a Growing House</h2>
+    <p class="italic-sub">A Union with Nehemiah Akagburuonye Amuchie</p>
+    <p class="dropcap">In her youth, she was joined in marriage to Nehemiah Akagburuonye Amuchie of Umuoshike, Ogbor Uvuru, becoming the pillar of a growing household. Through years of both plenty and hardship, she provided for and raised her children with resourcefulness and unfailing faith, laying the foundation of a family that would grow to five generations &mdash; children, grandchildren, great-grandchildren and beyond.</p>
+  </div>
+</section>
+
+<section id="odyssey-3" class="section chapter-section" data-bg="assets/bg_life_growth.jpg">
+  <div class="wrap reveal">
+    <div class="chapter-row">
+      <span class="chapter-badge">Chapter III &bull; Faith &amp; Family</span>
+      <span class="chapter-years">A Life of Service</span>
+    </div>
+    <h2>Mother of a Church, Mother of a Community</h2>
+    <p class="italic-sub">Founding Faith &amp; a Household of Prayer</p>
+    <p class="dropcap">As her family grew, Nneoma became known throughout Ogbor Uvuru simply as &ldquo;Nwa-afo&rdquo; &mdash; a name of deep affection carried by generations who came to call her Mama. She is remembered within her community as the founding heart of what is today the Assemblies of God church at Ogbor Uvuru, now home to the Noah's Ark auditorium built in her honour by her family. Her life of prayer and quiet devotion became the spiritual root from which her children's own ministries and charitable works would later grow.</p>
+  </div>
+</section>
+
+<section id="odyssey-4" class="section chapter-section alt" data-bg="assets/bg_life_family.jpg">
+  <div class="wrap reveal">
+    <div class="chapter-row">
+      <span class="chapter-badge">Chapter IV &bull; Grandchildren &amp; Golden Wisdom</span>
+      <span class="chapter-years">The Centenary Years</span>
+    </div>
+    <h2>The Matriarchal Golden Era</h2>
+    <p class="italic-sub">A Compound of Blessing, A Memoir of Faith</p>
+    <p class="dropcap">Now a great-grandmother many times over, Nneoma's compound in Ogbor Uvuru became a place of pilgrimage for family seeking her blessing and counsel. Her later years were marked by an extraordinary vitality of spirit &mdash; celebrated at 104, then 105, with family gathered from across Nigeria and the diaspora. Her memoir, <em>Me and My God</em>, chronicling her walk of faith, was launched in her honour, and her matriarchal stature drew warm recognition and well-wishes from leaders across her state and nation.</p>
+  </div>
+</section>
+
+<section id="odyssey-5" class="section chapter-section legacy" data-bg="assets/bg_heaven.jpg">
+  <div class="wrap reveal">
+    <div class="chapter-row">
+      <span class="chapter-badge">Chapter V &bull; Legacy &amp; Eternal Rest</span>
+      <span class="chapter-years">2026</span>
+    </div>
+    <h2>A Glorious Exit at 105</h2>
+    <p class="italic-sub">Peaceful Home-Going &amp; a Legacy That Remains</p>
+    <p class="dropcap">Her 104th and 105th birthdays were celebrated at the family's Ogbor Uvuru compound with the same joy and gratitude that marked her whole life &mdash; a testament to a life of faith rewarded. Surrounded by five generations of descendants, she quietly answered the call of her Creator in 2026, leaving behind a legacy of faith, family and community service that will echo through Umuoshike, Aboh Mbaise, and far beyond for generations to come.</p>
+  </div>
+  <div class="chapter-progress">
+    <span class="dot" data-idx="1">I</span><span class="dot" data-idx="2">II</span><span class="dot" data-idx="3">III</span><span class="dot" data-idx="4">IV</span><span class="dot active" data-idx="5">V</span>
+  </div>
+</section>
+
+<!-- ================= FAMILY TRIBUTES ================= -->
+<section id="tributes" class="section-header-block reveal">
+  <p class="tag center">Family Tributes</p>
+  <h2 class="center">Voices of Those Who Loved Her</h2>
+</section>
+
+<section class="section tribute-collection" data-bg="assets/bg_content.jpg">
+  <div class="wrap">
+    <div class="tribute-grid">
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Tribute by Chief Barr. Engr. Dr. Success Obioma Akagburuonye</h3>
+        <p>Mama, you were the roots that held our family tree steady through every storm. I watched you turn scarcity into sufficiency and fear into faith. You taught me that leadership is service, and that a name is only as strong as the character behind it. Everything HopeRising and Noah's Ark stand for today began at your feet. Rest well, our foundation &mdash; until we meet again.</p>
+      </article>
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Tribute by the Senior Daughter (Ada Nne / Nne Umuada)</h3>
+        <p>As the Ada of this family, I stood closest to your wrapper as a girl and closest to your wisdom as a woman. You taught me the songs of the Umuada, the strength of a woman's word, and the grace of forgiveness. You were my first teacher of prayer and my last confidant in old age. Sleep on, Nne Nne &mdash; the daughters you raised will keep your fire burning.</p>
+      </article>
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Tribute by the Second Son &amp; Family</h3>
+        <p>Growing up in your household meant growing up disciplined, prayerful and proud of who we were. You never raised your voice, yet your word was law &mdash; spoken always with love. My own children called you 'Great Mama' with the same reverence I held as a boy. Thank you for one hundred and five years of unwavering example.</p>
+      </article>
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Tribute by the Second Daughter &amp; Family</h3>
+        <p>You were the calm in every storm our family faced. I remember your hands &mdash; always working, always giving, never idle even in your latest years. You showed us that faith and hard work are not opposites but companions on the same road. Go well, Mama.</p>
+      </article>
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Joint Tribute by the Younger Sons &amp; Daughters</h3>
+        <p>To the last-born children of this remarkable woman, you were never 'the last' in her love &mdash; she gave each of us her whole heart, every time. We remember evenings of storytelling, proverbs that still guide our decisions, and a home that always smelled of freshly pounded yam and prayer. Adieu.</p>
+      </article>
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Tribute by the Senior Son-in-Law</h3>
+        <p>When I married into this family, I gained more than a wife &mdash; I gained a second mother in you. You welcomed me as Ogo with open arms and taught me the customs of Ogbor Uvuru with patience and warmth. Thank you for a home that always had room for one more.</p>
+      </article>
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Joint Statement by the In-Law Families (Ndi Ogo)</h3>
+        <p>We, the in-law families united by marriage to this great house, join our voices in gratitude and farewell. Nneoma bridged families, settled disputes with gentle wisdom, and reminded every one of us that in-laws, too, are children of the same God.</p>
+      </article>
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Tribute by the Senior Grandson</h3>
+        <p>Grandma, you were my first hero. I remember sitting at your feet, listening to stories of the old ways while you shelled melon seeds without ever looking down. I promise to carry the family name the way you carried this family.</p>
+      </article>
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Collective Tribute by the Granddaughters (Ndi Muo Nwanyi)</h3>
+        <p>Grandma, you showed us what it means to be a woman of substance &mdash; graceful yet unbending, gentle yet formidable. We are the daughters of your daughters, carrying pieces of you into every room we enter. Ndewo nne, until we meet in glory.</p>
+      </article>
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Collective Tribute by the Grandsons (Ndi Nwa Nne)</h3>
+        <p>You called us your little men, and you raised us to be exactly that &mdash; men of honour. We will tell our own children about the woman who lived through a century and never once lost her faith.</p>
+      </article>
+      <article class="tribute-card reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <h3>Tribute by the Diaspora Grandchildren (UK, USA, Canada)</h3>
+        <p>Though oceans separated us from your compound, you were never far from our hearts. You taught us, even from a distance, that home is not a place but a person &mdash; and you were ours.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= COMMUNITY TRIBUTE WALL ================= -->
+<section id="wall" class="section content-section" data-bg="assets/bg_content.jpg">
+  <div class="wrap reveal">
+    <p class="tag">Share a Memory</p>
+    <h2>The Tribute Wall</h2>
+    <p class="italic-sub">Add your own words, light a candle, and see what others have shared</p>
+
+    <div id="demoBanner" class="demo-banner" hidden>
+      <span>&#9888;&nbsp; Preview mode: tributes typed here are only saved on this device until the family connects shared storage. See <code>SETUP.md</code>.</span>
+    </div>
+
+    <div class="wall-actions">
+      <button id="openTributeForm" class="btn-primary">&#10022; Leave a Tribute</button>
+      <button id="openShareModal" class="btn-outline">&#8599; Share &amp; Invite</button>
+    </div>
+
+    <div id="wallSort" class="wall-sort">
+      <span>Sort by</span>
+      <button class="sort-btn active" data-sort="newest">Newest</button>
+      <button class="sort-btn" data-sort="liked">Most Liked</button>
+    </div>
+
+    <div id="tributeWall" class="tribute-wall" aria-live="polite">
+      <div class="wall-loading">Lighting candles&hellip;</div>
+    </div>
+
+    <button id="loadMoreTributes" class="btn-outline load-more" hidden>Show More Tributes</button>
+  </div>
+</section>
+
+<!-- ================= LEAVE A TRIBUTE MODAL ================= -->
+<div id="tributeModal" class="modal" aria-hidden="true">
+  <div class="modal-card">
+    <button class="modal-close" data-close-modal>&times;</button>
+    <p class="tag">Share a Memory</p>
+    <h3>Leave a Tribute for Mama Nwa-afo</h3>
+    <form id="tributeForm">
+      <label>Your Name <span class="req">*</span>
+        <input type="text" id="tfName" maxlength="60" required placeholder="e.g. Ada Nwosu">
+      </label>
+      <label>Relationship <span class="opt">(optional)</span>
+        <input type="text" id="tfRelation" maxlength="60" placeholder="e.g. Granddaughter, Church Member, Friend">
+      </label>
+      <label>Your Message <span class="req">*</span>
+        <textarea id="tfMessage" maxlength="800" rows="5" required placeholder="Share a memory, a prayer, or words of comfort for the family&hellip;"></textarea>
+      </label>
+      <p class="form-note">Your tribute appears on this page instantly and publicly &mdash; please keep it warm and respectful.</p>
+      <button type="submit" class="btn-primary full">Post Tribute</button>
+    </form>
+  </div>
+</div>
+
+<!-- ================= SHARE & INVITE MODAL ================= -->
+<div id="shareModal" class="modal" aria-hidden="true">
+  <div class="modal-card">
+    <button class="modal-close" data-close-modal>&times;</button>
+    <p class="tag">Share &amp; Invite</p>
+    <h3>Invite Family &amp; Friends</h3>
+    <p class="form-note">Share this memorial so everyone who loved Mama Nwa-afo can add their own tribute and follow the programme of events.</p>
+
+    <div class="share-link-row">
+      <input type="text" id="shareLinkInput" readonly>
+      <button id="copyLinkBtn" class="btn-outline small">Copy Link</button>
+    </div>
+
+    <div class="share-grid">
+      <a class="share-btn whatsapp" id="shareWhatsapp" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="share-btn facebook" id="shareFacebook" target="_blank" rel="noopener">Facebook</a>
+      <a class="share-btn twitter" id="shareTwitter" target="_blank" rel="noopener">X / Twitter</a>
+      <a class="share-btn email" id="shareEmail">Email</a>
+    </div>
+
+    <div class="invite-email-row">
+      <label>Invite by email <span class="opt">(opens your email app)</span></label>
+      <div class="invite-input-row">
+        <input type="email" id="inviteEmailInput" placeholder="family@example.com">
+        <button id="sendInviteBtn" class="btn-outline small">Invite</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= VIDEO MODAL ================= -->
+<div id="videoModal" class="modal video-modal" aria-hidden="true">
+  <div class="modal-card video-modal-card">
+    <button class="modal-close" data-close-modal>&times;</button>
+    <div id="videoModalBody" class="video-modal-body"></div>
+  </div>
+</div>
+
+<!-- ================= YOUNG VOICES ================= -->
+<section id="young-voices" class="section content-section" data-bg="assets/bg_content.jpg">
+  <div class="wrap reveal">
+    <p class="tag">Young Voices</p>
+    <h2>Innocent Reflections &mdash; The Youngest Generations</h2>
+    <div class="quote-grid">
+      <div class="qcard">&ldquo;Great-Grandma always had sweets in her wrapper pocket for us.&rdquo;</div>
+      <div class="qcard">&ldquo;She called every one of us her 'own special one' &mdash; and we believed her.&rdquo;</div>
+      <div class="qcard">&ldquo;Her stories about the olden days felt like magic.&rdquo;</div>
+      <div class="qcard">&ldquo;She prayed for us by name, every single one, every single day.&rdquo;</div>
+      <div class="qcard">&ldquo;Her laughter could fill the whole compound.&rdquo;</div>
+      <div class="qcard">&ldquo;Even at 105, she remembered every one of our birthdays.&rdquo;</div>
+    </div>
+    <div class="dedication-box">
+      <p>To the youngest branches of this ancient tree &mdash; you may never remember her voice, but you will forever carry her blood, her name, and her blessing. Before she departed, she prayed over the fifth generation, that faith, unity and hard work would remain the inheritance of this family long after every name on this page has been forgotten by the world, but not by God.</p>
+      <p class="dedication-final">May you grow to hear her story not as history, but as an instruction for how to live.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERIES ================= -->
+<section id="galleries" class="section-header-block reveal">
+  <p class="tag center">Photo Gallery</p>
+  <h2 class="center">A Life in Pictures</h2>
+</section>
+
+<section class="section gallery-section" data-bg="assets/bg_gallery.jpg">
+  <div class="wrap">
+    <h3 class="gallery-heading reveal">I. Early Life &amp; Family Portraits</h3>
+    <div class="gallery-grid reveal">
+      <figure class="gframe placeholder"><div class="gphoto"><span>&#10023;</span><em>Photo to be added by family</em></div><figcaption>Girlhood in Ogbor Uvuru</figcaption></figure>
+      <figure class="gframe" data-full="assets/portrait_hero.jpg"><div class="gphoto"><img src="assets/portrait_hero.jpg" alt="Portrait in traditional coral beads and gele" loading="lazy"></div><figcaption>Portrait in Traditional Attire</figcaption></figure>
+      <figure class="gframe placeholder"><div class="gphoto"><span>&#10023;</span><em>Photo to be added by family</em></div><figcaption>Early Family Life</figcaption></figure>
+    </div>
+
+    <h3 class="gallery-heading reveal">II. Faith &amp; Community Leadership</h3>
+    <div class="gallery-grid reveal">
+      <figure class="gframe placeholder"><div class="gphoto"><span>&#10023;</span><em>Photo to be added by family</em></div><figcaption>Church Founding &amp; Ministry</figcaption></figure>
+      <figure class="gframe placeholder"><div class="gphoto"><span>&#10023;</span><em>Photo to be added by family</em></div><figcaption>Noah's Ark Auditorium</figcaption></figure>
+      <figure class="gframe placeholder"><div class="gphoto"><span>&#10023;</span><em>Photo to be added by family</em></div><figcaption>Community Outreach</figcaption></figure>
+    </div>
+
+    <h3 class="gallery-heading reveal">III. The 104th &amp; 105th Birthday Celebrations</h3>
+    <div class="gallery-grid reveal">
+      <figure class="gframe placeholder"><div class="gphoto"><span>&#10023;</span><em>Photo to be added by family</em></div><figcaption>Birthday Cake Cutting</figcaption></figure>
+      <figure class="gframe placeholder"><div class="gphoto"><span>&#10023;</span><em>Photo to be added by family</em></div><figcaption>Family &amp; Friends in Celebration</figcaption></figure>
+      <figure class="gframe placeholder"><div class="gphoto"><span>&#10023;</span><em>Photo to be added by family</em></div><figcaption>Traditional Dance &amp; Honours</figcaption></figure>
+    </div>
+
+    <h3 class="gallery-heading reveal">IV. The Five-Generation Family Portrait</h3>
+    <div class="gallery-grid reveal">
+      <figure class="gframe placeholder"><div class="gphoto"><span>&#10023;</span><em>Photo to be added by family</em></div><figcaption>Five Generations United</figcaption></figure>
+      <figure class="gframe" data-full="assets/portrait_heaven.jpg"><div class="gphoto"><img src="assets/portrait_heaven.jpg" alt="Mama Nwa-afo, aged 105 years" loading="lazy"></div><figcaption>Aged 105 Years</figcaption></figure>
+      <figure class="gframe placeholder"><div class="gphoto"><span>&#10023;</span><em>Photo to be added by family</em></div><figcaption>Extended Akagburuonye Family</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INSTITUTIONAL TRIBUTES ================= -->
+<section id="institutional" class="section content-section" data-bg="assets/bg_content.jpg">
+  <div class="wrap reveal">
+    <p class="tag">Institutional &amp; Cultural Tributes</p>
+    <h2>Honoured by Church, Foundation &amp; Community</h2>
+    <p class="italic-sub">Presented at the Night of Tributes, 6 November</p>
+    <div class="tribute-grid three">
+      <article class="tribute-card small">
+        <h3>Noah's Ark, Assemblies of God Church, Ogbor Uvuru</h3>
+        <p>The church she is remembered as having founded mourns a mother of the faith. Her decades of devotion and prayer leave a legacy that continues in the auditorium built and named in her honour.</p>
+      </article>
+      <article class="tribute-card small">
+        <h3>HopeRising for Imolites &amp; Believers of the Gospel Care Foundation</h3>
+        <p>Staff of both foundations honour the woman whose life of faith and service inspired their founding mission &mdash; carrying her spirit of care to communities across Imo State.</p>
+      </article>
+      <article class="tribute-card small">
+        <h3>Obisco Foods &amp; Beverages Ltd &bull; Lion of Judah Security Ltd</h3>
+        <p>Corporate partners of the family join the community in tribute, honouring a matriarch whose legacy of quiet dignity shaped the values of everyone connected to Umuoshike, Ogbor Uvuru.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VENUES & RECEPTION ================= -->
+<section id="celebration" class="section heaven-section" data-bg="assets/bg_heaven.jpg">
+  <div class="wrap reveal">
+    <p class="tag">Venues</p>
+    <h2>Where to Find Us</h2>
+    <p class="italic-sub">Seven venues across Ogbor Uvuru &amp; Aboh Mbaise, 2&ndash;8 November</p>
+    <div class="venue-grid">
+      <div class="venue-card"><h4>Central School, Ogbor Uvuru</h4><p>Crusade, lying-in-state, march-past &amp; public reception</p></div>
+      <div class="venue-card"><h4>Assemblies of God District HQ, Mbaise</h4><p>Arrival service, 6 November</p></div>
+      <div class="venue-card"><h4>Country Home, Akarugo Ndi Igbo</h4><p>Wake-keeping, Night of Tributes &amp; VVIP reception</p></div>
+      <div class="venue-card"><h4>Husband's Compound</h4><p>Interment &amp; family committal rites</p></div>
+      <div class="venue-card"><h4>Hotel Extension, Umunowo</h4><p>Reception &amp; overflow guests</p></div>
+      <div class="venue-card"><h4>Ogbo Town Hall</h4><p>Community reception &amp; cultural performances</p></div>
+      <div class="venue-card"><h4>Noah's Ark, Assemblies of God Church</h4><p>Thanksgiving service, 8 November</p></div>
+    </div>
+
+    <h3 class="venue-subhead">Saturday Reception &mdash; Five Venues, One Celebration</h3>
+    <p>Following interment on 7 November, guests are received simultaneously across the family compound, the hotel extension in Umunowo, Ogbo Town Hall, Central School and the country home, each with its own catering and seating &mdash; so every guest, family and well-wisher alike, is warmly hosted.</p>
+  </div>
+</section>
+
+<!-- ================= DESCENDANTS REGISTER ================= -->
+<section id="register" class="section content-section" data-bg="assets/bg_content.jpg">
+  <div class="wrap reveal">
+    <p class="tag">Family Legacy</p>
+    <h2>Comprehensive Descendants Register</h2>
+    <p class="italic-sub">Five Generations of the Akagburuonye Family</p>
+    <div class="gen-grid">
+      <div class="gen-card"><span class="gen-label">Generation I</span><strong>5</strong><span class="gen-name">Children</span><em>Sons &amp; Daughters</em></div>
+      <div class="gen-card"><span class="gen-label">Generation II</span><strong>35+</strong><span class="gen-name">Grandchildren</span><em>Across Nigeria &amp; the Diaspora</em></div>
+      <div class="gen-card"><span class="gen-label">Generation III</span><strong>30+</strong><span class="gen-name">Great-Grandchildren</span><em>Growing Every Year</em></div>
+      <div class="gen-card"><span class="gen-label">Generation IV</span><strong>5th Gen</strong><span class="gen-name">Great-Great-Grandchildren</span><em>The Newest Blessings</em></div>
+    </div>
+    <p class="footnote">A structured listing of all named descendants accompanies this register in the full family archive, maintained by the Akagburuonye Family.</p>
+  </div>
+</section>
+
+<!-- ================= THANKS / FAREWELL ================= -->
+<section id="thanks" class="section farewell-section" data-bg="assets/bg_close.jpg">
+  <div class="wrap reveal farewell-inner">
+    <div class="farewell-photo"><img src="assets/portrait_heaven.jpg" alt="Mrs. Nneoma Monica Nwafo Akagburuonye standing among the clouds, aged 105 years"></div>
+    <div class="farewell-text">
+      <p class="eyebrow">With Heartfelt Gratitude</p>
+      <h2>Vote of Thanks</h2>
+      <p>The family of the late Nehemiah Akagburuonye Amuchie and their beloved matriarch, Mrs. Nneoma Monica Nwafo Akagburuonye, extends profound gratitude to the clergy, choir, in-laws, friends, community, corporate partners and well-wishers who stood with us through this glorious celebration of a life well lived.</p>
+      <p>Your prayers, presence, and support have comforted us beyond words. May God bless you abundantly as He blessed our mother with 105 years of grace.</p>
+      <div class="rule light"></div>
+      <p class="glory">To God Be The Glory!!!</p>
+      <p class="alias">Mama Nwa-afo &mdash; Matriarch of Umuoshike, Ogbor Uvuru</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Published in loving memory of Mrs. Nneoma Monica Nwafo Akagburuonye by the Akagburuonye family &bull; Umuoshike, Ogbor Uvuru, Aboh Mbaise LGA, Imo State</p>
+  <button id="backToTop" aria-label="Back to top">&uarr; Back to Top</button>
+</footer>
+
+<!-- ================= FLOATING SHARE BUTTON ================= -->
+<button id="floatingShare" class="floating-share" aria-label="Share and invite family">
+  <span class="fs-icon">&#10022;</span><span class="fs-text">Share &amp; Invite</span>
+</button>
+
+<!-- ================= LIGHTBOX ================= -->
+<div id="lightbox" class="lightbox" aria-hidden="true">
+  <button id="lightboxClose" aria-label="Close image">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<!-- Toast for confirmations (copied link, tribute posted, etc.) -->
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<!-- Optional shared backend: fill in assets are unused if left as placeholders — see SETUP.md -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js" onerror="window.__fbLoadFailed=true"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js" onerror="window.__fbLoadFailed=true"></script>
+<script src="firebase-config.js"></script>
+<script src="media-config.js"></script>
+<script src="tributes.js"></script>
+<script src="media.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
